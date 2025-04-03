@@ -1,0 +1,91 @@
+/* Navbar.module.css */
+.navbar {
+  background-color: #249db6; /* Blue background */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #f8f9fa; /* Light gray on hover */
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.navbar-menu button:hover {
+  opacity: 0.8;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-right button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+}
+
+.login-btn {
+  background-color: #28a745; /* Green */
+  color: white;
+}
+
+.register-btn {
+  background-color: #ffc107; /* Yellow */
+  color: black;
+}
+
+.login-btn:hover {
+  background-color: #218838;
+}
+
+.register-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Admin Panel Styles */
+.admin-link {
+  background-color: #ff5733; /* Bright red for admin button */
+  color: white !important;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.admin-link:hover {
+  background-color: #d43f1a;
+}

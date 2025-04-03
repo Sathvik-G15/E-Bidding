@@ -1,0 +1,66 @@
+/* Ensure the table takes full width */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .styled-table th {
+    padding: 20px 10px; /* Reduced padding on left and right */
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .styled-table td {
+    padding: 20px 10px; /* Reduced padding on left and right */
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Separate columns for the buttons */
+  .view-details,
+  .delete-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .view-btn,
+  .delete-btn {
+    padding: 6px 12px;
+    margin: 0 5px; /* Add gap between buttons */
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .view-btn {
+    background-color: #4CAF50; /* Green for View */
+    color: white;
+    border: none;
+  }
+  
+  .view-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn {
+    background-color: #f44336; /* Red for Delete */
+    color: white;
+    border: none;
+  }
+  
+  .delete-btn:hover {
+    background-color: #da190b;
+  }
+  
+  /* Optional: Add some space between the last column (Delete) and other columns */
+  .delete-button {
+    width: 120px; /* Adjust to fit the button nicely */
+  }
+  
+  /* **ADD THIS LINE:** Add space between columns */
+  .styled-table th,
+.styled-table td {
+  padding: 12px;
+  box-sizing: border-box;
+  margin : 2px;
+}

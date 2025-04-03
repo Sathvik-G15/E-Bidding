@@ -1,0 +1,78 @@
+.auctionContainer {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.sectionHeading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.noAuctionText {
+  font-size: 18px;
+  color: #777;
+  margin: 10px 0 20px;
+}
+
+.auctionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.auctionCard {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.auctionCard:hover {
+  transform: translateY(-5px);
+}
+
+.auctionImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #222;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.participateBtn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.participateBtn:hover {
+  background: #0056b3;
+}

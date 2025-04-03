@@ -1,0 +1,39 @@
+.createAuctionContainer {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .createAuctionForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .createAuctionForm input,
+  .createAuctionForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .createAuctionForm button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .createAuctionForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  

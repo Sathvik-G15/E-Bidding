@@ -1,0 +1,73 @@
+.adminContainer {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.actionsContainer {
+  display: flex;
+  gap: 10px; /* Ensures spacing between buttons */
+  align-items: center;
+}
+
+.detailsBtn, .adminBtn, .deleteBtn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.detailsBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+.adminBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+.deleteBtn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.detailsBtn:hover {
+  background-color: #0056b3;
+}
+
+.adminBtn:hover {
+  background-color: #218838;
+}
+
+.deleteBtn:hover {
+  background-color: #c82333;
+}

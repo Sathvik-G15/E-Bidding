@@ -1,0 +1,56 @@
+/* AdminPanel.module.css */
+
+.adminContainer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .adminDashboard {
+    text-align: center;
+    color: #333;
+  }
+  
+  .adminSections {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .tableContainer {
+    margin-top: 10px;
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .deleteButton {
+    padding: 6px 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 3px;
+  }
+  
+  .deleteButton:hover {
+    background-color: darkred;
+  }
+  

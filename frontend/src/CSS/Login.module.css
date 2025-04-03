@@ -1,0 +1,83 @@
+/* src/CSS/Login.module.css */
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e3f2fd, #ffffff); /* Light blue background */
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1565c0; /* Dark blue */
+    margin-bottom: 30px;
+  }
+  
+  .loginFormContainer {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .loginFormContainer:hover {
+    transform: scale(1.02);
+  }
+  
+  .loginFormContainer h2 {
+    font-size: 26px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .loginForm input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .loginForm input:focus {
+    border: 2px solid #64b5f6;
+    box-shadow: 0 0 8px rgba(100, 181, 246, 0.4);
+  }
+  
+  .loginForm button {
+    padding: 12px;
+    background: linear-gradient(to right, #64b5f6, #42a5f5);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .loginForm button:hover {
+    background: linear-gradient(to right, #42a5f5, #64b5f6);
+    box-shadow: 0 0 12px rgba(100, 181, 246, 0.6);
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 400px) {
+    .loginFormContainer {
+      width: 90%;
+      padding: 25px;
+    }
+  }
+  
